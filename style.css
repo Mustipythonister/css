@@ -6,25 +6,46 @@
   padding:0;
 }
 
-
-.box{
-  width:500px;
-  height:500px;
-  box-shadow:0 10px 20px 5px rgba(0,0,0,.20);
+.header{
+  width:100%;
+  height:50px;
+  background:white;
+  box-shadow: 1px 8px 19px -3px rgba(0,0,0,0.15);
+}
+.mini-box{
+  width:200px;
+  height:200px;
+  box-shadow: 1px 8px 19px -3px rgba(0,0,0,0.15);
   padding:5px;
+  background:white;
 
+}
+.medium-box{
+  width:300px;
+  height:300px;
+  box-shadow: 1px 8px 19px -3px rgba(0,0,0,0.15);
+  padding:5px;
+  background:white;
+}
+.big-box{
+  width:400px;
+  height:400px;
+  box-shadow: 1px 8px 19px -3px rgba(0,0,0,0.15);
+  padding:5px;
+  background:white;
 }
 .box-move{
   width:210px;
   height:210px;
-  box-shadow:0 5px 20px 5px rgba(0,0,0,.15);
+  box-shadow: 1px 8px 19px -3px rgba(0,0,0,0.15);
   transition:0.2s;
   padding:20px;
+  background:white;
 }
 .box-move:hover{
   width:220px;
   height:220px;
-  box-shadow:5px 20px 20px 4px rgba(0,0,0,.20);
+  box-shadow: 1px 8px 19px -3px rgba(0,0,0,0.15);
   transition:0.2s;
 }
 .input{
@@ -40,7 +61,7 @@
   outline:none;
 }
 .input:focus{
-  box-shadow:0 0 10px 2px rgba(39,196,150,0.1);
+  box-shadow:0 0 20px 8px rgba(39,196,150,0.1);
   padding:5px;
   transition:0.2s;
 }
@@ -65,7 +86,7 @@
   height:100px;
   background:#f0fffa;
   border-radius:20px;
-  box-shadow:0 0 10px 2px rgba(0,0,0,.20);
+  box-shadow: 1px 8px 19px -3px rgba(0,0,0,0.15);
   outline:none;
   padding:10px;
   border:none;
@@ -74,23 +95,27 @@
   background:#cdfaec;
 }
 .textbox:focus{
-  background:#a6ffe4;
+  background:#78f593;
   color:#135742;
-  
+  color:white;
   transition: 0.2s;
-  box-shadow:0 10px 20px 5px rgba(0,0,0,.15);
+  box-shadow: 1px 8px 19px -3px rgba(0,0,0,0.15);
 }
 .div-select{
   width:300px;
-  height:50px;
-  box-shadow: 0 20px 20px 4px rgba(0,0,0,.12);
-  padding:5px;
+  height:200px;
+  box-shadow: 1px 8px 19px -3px rgba(0,0,0,0.15);
+  padding:10px;
+  background:white;
 }
 .div-select:hover{
   width:300px;
-  height:50px;
-  box-shadow: 0 20px 20px 4px rgba(0,0,0,.12);
-  background:#48947d;
+  height:200px;
+  box-shadow: 1px 8px 19px -3px rgba(0,0,0,0.15);
+  background:#96ffad;
+  color:white;
+  border-radius:20px;
+  transition: 0.3s;
   
 }
 .div-dropdown{
@@ -104,7 +129,7 @@
 }
 .div-dropdown:hover{
   background:#48947d;
-  height:250px;
+  height:300px;
   transition:0.2s;
 }
 .title{
@@ -121,9 +146,9 @@
 }
 .box-full-width{
   width:100%;
-  height:50px;
-  box-shadow:0 10px 20px 5px rgba(0,0,0,.20);
-  padding:5px;
+  height:200px;
+  box-shadow: 1px 8px 19px -3px rgba(0,0,0,0.15);
+  
 }
 .list{
   list-style: square inside;
@@ -133,5 +158,98 @@
 }
 .list-style-nont{
   list-style: none;
+  cursor:pointer;
+}
+.form{
+  width:400px;
+  height:250px;
+  padding:10px;
+  text-align: center;
+  box-shadow: 1px 8px 19px -3px rgba(0,0,0,0.15);
+}
+.button{
+  width:150px;
+  height:40px;
+  border:none;
+  border-radius: 12px;
+  cursor:pointer;
+  padding:5px;
+}
+.button:hover{
+  background:#d8eddd;
+}
+.button:focus{
+  background:red;
+  padding:2px;
+  background:#55e674;
+  color:white;
+  content: 'submited';
+  box-shadow:0 0 20px 8px rgba(39,196,150,0.1);
+  transition:0.2s;
+}
+.center-content{
+  width:300px;
+  height:300px;
+  padding:10px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background:white;
+  box-shadow: 1px 8px 19px -3px rgba(0,0,0,0.15);
+}
+.small-container{
+  width:500px;
+  height:250px;
+  overflow: hidden;
+  overflow-y: auto;
+  box-shadow: 1px 8px 19px -3px rgba(0,0,0,0.15);
+  background:white;
+  padding:20px;
+}
+.medium-container{
+  width:650px;
+  height:300px;
+  overflow: hidden;
+  overflow-y: auto;
+  box-shadow: 1px 8px 19px -3px rgba(0,0,0,0.15);
+  background:white;
+  padding:20px;
+}
+.big-container{
+  width:700px;
+  height:400px;
+  overflow: hidden;
+  overflow-y: auto;
+  box-shadow: 1px 8px 19px -3px rgba(0,0,0,0.15);
+  background:white;
+  padding:20px;
+}
+.full-width-container{
+  width:100%;
+  height:400px;
+  overflow: hidden;
+  overflow-y: auto;
+  box-shadow: 1px 8px 19px -3px rgba(0,0,0,0.15);
+  background:white;
+  
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #58c470;
+  box-shadow:0 0 20px 30px rgba(39,196,150,0.1);
   cursor:pointer;
 }
