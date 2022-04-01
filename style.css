@@ -7,9 +7,19 @@
   width:210px;
   height:210px;
   box-shadow:0 5px 20px 5px rgba(0,0,0,.15);
+  transition:0.2s;
 }
 .box-move:hover{
   width:220px;
   height:220px;
-  box-shadow:0 10px 20px 4px rgba(0,0,0,.20);
+  box-shadow:5px 20px 20px 4px rgba(0,0,0,.20);
+  transition:0.2s;
+}
+.input{
+  width:250px;
+  height:30px;
+  border-radius:20px;
+}
+.input:hover{
+  border: 1px solid #34ebb4;
 }
