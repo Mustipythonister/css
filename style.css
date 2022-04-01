@@ -3,3 +3,13 @@
   height:200px;
   box-shadow:0 10px 20px 5px rgba(0,0,0,.20);
 }
+.box-move{
+  width:210px;
+  height:210px;
+  box-shadow:0 5px 20px 5px rgba(0,0,0,.15);
+}
+.box-move:hover{
+  width:220px;
+  height:220px;
+  box-shadow:0 10px 20px 4px rgba(0,0,0,.20);
+}
